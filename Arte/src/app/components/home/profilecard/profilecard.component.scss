@@ -5,7 +5,8 @@
   text-align: center;
   font-family: arial;
   width: 18rem;
-  margin:auto;
+  margin: 20px 20px;
+
   float: left;
 }
 
@@ -35,6 +36,7 @@ a {
   text-decoration: none;
   font-size: 22px;
   color: black;
+  margin:auto;
 }
 
 button:hover, a:hover {
@@ -61,6 +63,11 @@ button:hover, a:hover {
   color:#ea4c89;
 }
 
-.container {
-  display: inline-grid;
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
 }
