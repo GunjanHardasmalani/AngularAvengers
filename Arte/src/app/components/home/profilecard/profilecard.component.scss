@@ -4,6 +4,12 @@
   margin: auto;
   text-align: center;
   font-family: arial;
+  width: 18rem;
+  margin:auto;
+}
+
+img{
+  width: 100%;
 }
 
 .title {
@@ -34,7 +40,26 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
+.fab{
+  size: 9px;
+}
 
-.fa-facebook {
+.fa-facebook{
   color: rgb(59, 91, 152);
+}
+
+.fa-twitter{
+  color:#55aded
+}
+
+.fa-linkedin{
+  color:rgba(0, 119, 181,1);
+}
+
+.fa-dribbble{
+  color:#ea4c89;
+}
+
+.container {
+  display: inline-grid;
 }
